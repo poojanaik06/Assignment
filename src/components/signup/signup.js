@@ -53,7 +53,7 @@ const AuthPage = () => {
   // Dummy Login Handler
   const handleLogin = (values) => {
     // Mock server response
-    if (values.email === "test@example.com" && values.password === "shawarma") {
+    if (values.email === "nkpooja266@gmail.com" && values.password === "shawarma") {
       setServerMessage("Login successful! Redirecting to home...");
       setTimeout(() => window.location.href = "/", 2000); 
     } else {
