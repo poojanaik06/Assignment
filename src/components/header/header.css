@@ -1,1 +1,85 @@
 
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+
+  .navbar-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .logo-image {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+  }
+  
+  .logo-highlight {
+    color: #ff9933;
+  }
+  
+  /* Navbar Links */
+  .navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-links li {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  .navbar-links a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-links a:hover {
+    color: #ff4d4d;
+  }
+  
+  .cart-btn{
+    padding: 5px 15px;
+    border: 2px solid #ff4d4d;
+    border-radius: 20px;
+    color: #ff4d4d;
+    font-weight: bold;
+    background-color: transparent;
+    transition: background-color 0.3s ease, color 0.3s ease;
+
+  }
+
+  .cart-btn:hover{
+    background-color:blanchedalmond;
+    color: #fff;
+  }
+
+  .signup-btn {
+    padding: 5px 15px;
+    border: 2px solid #ff4d4d;
+    border-radius: 20px;
+    color: #ff4d4d;
+    font-weight: bold;
+    background-color: transparent;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .signup-btn:hover {
+    background-color:blanchedalmond;
+    color: #fff;
+  }
+  
